@@ -1,0 +1,140 @@
+.product {
+    width: 768px;
+    margin: 142px auto 0 auto;
+    padding: 0
+}
+
+.product h1 {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+    color: #0F1010;
+}
+
+.product .subheading {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    padding: 0;
+    margin: 9px 0;
+    color: #242525;
+}
+
+.product table.details {
+    padding: 8px 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    color: #242525;
+}
+
+.product table.details th {
+    padding: 2px 16px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.product table.details td {
+    padding: 2px 16px;
+    text-align: right;
+    font-weight: 300;
+}
+
+.product .breakdown-selector {
+    height: 40px;
+    box-shadow: 0px 1px 0px #E8E8E8;
+    line-height: 18px;
+    padding: 0;
+    margin: 0;
+    color: #3A3B3B;
+}
+
+.product .breakdown-selector button {
+    height: 38px;
+    padding: 10px 14px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+}
+
+.product .breakdown-selector button.selected {
+    box-shadow: 0 2px 0 #00ADA8;
+}
+
+.product .product-breakdown {
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+}
+
+.product .product-breakdown table {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.product .product-breakdown thead th {
+    height: 48px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #E8E8E8;
+    color: #242525;
+}
+
+.product .product-breakdown .category {
+    text-align: left;
+    padding: 0 16px;
+}
+
+.product .product-breakdown .percentage {
+    text-align: right;
+    padding: 0 16px;
+}
+
+.product .product-breakdown tbody .category , .product .product-breakdown tbody .percentage {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color: #242525;
+    border-bottom: 1px solid #E8E8E8;
+    height: 48px;
+}
+
+.product .product-breakdown .show-more {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 48px;
+
+    color: #00928D;
+}
+
+.product .product-breakdown .show-more:hover {
+    text-decoration: underline;
+}
